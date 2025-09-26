@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="workspace">
+    <header class="head">
+        <h2>Ramzi</h2>
+         <nav class="head-nav">
+            <button class="sort-button"><i class="fa fa-times"></i></button>
+            <br>
+       <h4 style="color: red;">Home</h4>
+       <h4>Services</h4>
+       <h4>skills</h4>
+       <h4>Education</h4>
+       <h4>Experiance</h4>
+       <h4>Contact</h4>
+    </nav>
+    <button class="enter-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+    </header>
+    <section class="home">
+    <div class=" home-img">
+            <img src="images/1000006747-removebg-preview (1).png">
+        </div>
+        <div class="home-content">
+        <h1>Hi, Its <span style="color: red;">ramzi</span></h1>
+        <h3 class="typing-text">I'm a <span style="color: red;">web developer</span></h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ipsa facere fugit atque libero magnam reiciendis quos iste, autem, quis voluptatem numquam mollitia obcaecati corrupti veritatis nesciunt itaque delectus fugiat?</p>
+        <br>
+        <div class="social-icons">
+            <div><i class="fab fa-linkedin"></i></div> 
+              <div><i class="fab fa-instagram"></i></div>
+              <div><i class="fab fa-github"></i></div> 
+              <div><i class="fa-brands fa-facebook"></i></div> 
+        </div>
+        <br>
+        <button class="btn">Hire me</button>
+    </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
