@@ -3,47 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <title>My portfolio</title></title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="workspace">
-    <header class="head">
-        <h2>Ramzi</h2>
-         <nav class="head-nav">
-            <button class="sort-button"><i class="fa fa-times"></i></button>
-            <br>
-       <h4 style="color: red;">Home</h4>
-       <h4>Services</h4>
-       <h4>skills</h4>
-       <h4>Education</h4>
-       <h4>Experiance</h4>
-       <h4>Contact</h4>
-    </nav>
-    <button class="enter-button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
-    </header>
-    <section class="home">
-    <div class=" home-img">
-            <img src="images/1000006747-removebg-preview (1).png">
-        </div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+   <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+       </nav>
+     </header>
+
+     <section class="home" id="home">
         <div class="home-content">
-        <h1>Hi, Its <span style="color: red;">ramzi</span></h1>
-        <h3 class="typing-text">I'm a <span style="color: red;">web developer</span></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ipsa facere fugit atque libero magnam reiciendis quos iste, autem, quis voluptatem numquam mollitia obcaecati corrupti veritatis nesciunt itaque delectus fugiat?</p>
-        <br>
-        <div class="social-icons">
-            <div><i class="fab fa-linkedin"></i></div> 
-              <div><i class="fab fa-instagram"></i></div>
-              <div><i class="fab fa-github"></i></div> 
-              <div><i class="fa-brands fa-facebook"></i></div> 
+           <h3>hello, It's Me</h3>
+           <h1>Ramzi Gacem</h1>
+           <h3>and I'm a <span class="multiple-text"></span></h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, molestias quo.<br>
+             Hic quia dolore consequatur veritatis perferendis, sequi consequuntur odio dolorum!<br>
+             Repellat aliquam velit, quae reiciendis saepe tempore laborum ratione.
+           </p>
+           <div class="social-media">   
+             <a href="#"><i class='bx bxl-facebook'></i> </a>
+             <a href="#"><i class='bx bxl-twitter'></i> </a>
+             <a href="#"><i class='bx bxl-instagram-alt' ></i> </a>
+             <a href="#"><i class='bx bxl-linkedin' ></i> </a>
+           </div>
+           <a href="#" class="btn">Download CV</a>
         </div>
-        <br>
-        <button class="btn">Hire me</button>
-    </div>
-    </section>
-    </div>
-    <script src="portfolio.js"></script>
+        <div class="home-img">
+            <img src="images/1000006747.jpg">
+        </div>
+     </section>
+
+     <section class="about" id="about">
+        <div class="about-img">
+          <img src="images/1000006747.jpg">
+           </div>
+      <div class="about-content">
+       <h2 class="heading">About <span>Me</span></h2>
+       <h3>Frontend Developer</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil qui iste sunt voluptate.<br>
+         Voluptatum eos id iusto, nobis adipisci, reprehenderit maiores, totam odio sapiente explicabo qui consequatur eveniet est quod?</p>
+      <a href="#" class="btn">Read More</a>
+      </div>
+     </section>
+
+     <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+         <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus ipsam nam recusandae blanditiis esse quisquam,<br>
+           voluptas quos, voluptatem tempore hic corporis est, delectus laborum quam laboriosam doloribus repellendus fugit.</p>
+        <a href="#" class="btn">Read More</a>
+          </div>
+        <div class="services-box">
+         <i class='bx bxs-paint' ></i>
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus ipsam nam recusandae blanditiis esse quisquam,<br>
+           voluptas quos, voluptatem tempore hic corporis est, delectus laborum quam laboriosam doloribus repellendus fugit.</p>
+        <a href="#" class="btn">Read More</a>
+          </div>
+           <div class="services-box">
+            <i class='bx bx-bar-chart-alt'></i>
+        <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus ipsam nam recusandae blanditiis esse quisquam,<br>
+           voluptas quos, voluptatem tempore hic corporis est, delectus laborum quam laboriosam doloribus repellendus fugit.</p>
+        <a href="#" class="btn">Read More</a>
+          </div>
+      </div>
+     </section>
+
+     <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+         <div class="portfolio-container">
+
+            <div class="portfolio-box">
+               <img src="images/rain.jpg" alt="">
+               <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos, ipsum culpa possimus<br>
+                      quis dolorum praesentium dignissimos beatae fugiat.<br>
+                      Maiores, deleniti error facilis laborum odit totam voluptates unde accusantium. Cum.</p>
+                      <a href="#"><i class='bx bx-link-external'></i></a>
+               </div>
+            </div>
+
+            <div class="portfolio-box">
+               <img src="images/rain.jpg" alt="">
+               <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos, ipsum culpa possimus<br>
+                      quis dolorum praesentium dignissimos beatae fugiat.<br>
+                      Maiores, deleniti error facilis laborum odit totam voluptates unde accusantium. Cum.</p>
+                      <a href="#"><i class='bx bx-link-external'></i></a>
+               </div>
+            </div>
+
+             <div class="portfolio-box">
+               <img src="images/rain.jpg" alt="">
+               <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos, ipsum culpa possimus<br>
+                      quis dolorum praesentium dignissimos beatae fugiat.<br>
+                      Maiores, deleniti error facilis laborum odit totam voluptates unde accusantium. Cum.</p>
+                      <a href="#"><i class='bx bx-link-external'></i></a>
+               </div>
+            </div>
+
+             <div class="portfolio-box">
+               <img src="images/rain.jpg" alt="">
+               <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos, ipsum culpa possimus<br>
+                      quis dolorum praesentium dignissimos beatae fugiat.<br>
+                      Maiores, deleniti error facilis laborum odit totam voluptates unde accusantium. Cum.</p>
+                      <a href="#"><i class='bx bx-link-external'></i></a>
+               </div>
+            </div>
+
+         </div>
+     </section>
+
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+         <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email address">
+         </div>
+         <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email subject">
+         </div>
+         <textarea name="" id="" cols="30" row="10" placeholder="Your Message"></textarea>
+         <input type="submit" value="Send Message" class="btn">
+      </form>
+     </section>
+
+     <footer class="footer">
+      <div class="footer-text">
+         <p>Copyright &copy; 2026 by codehal | All Rights reserved</p>
+      </div>
+      <div class="footer-iconTop">
+         <a href="#home" ><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+     </footer>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script src="script.js"></script>
 </body>
 </html>
